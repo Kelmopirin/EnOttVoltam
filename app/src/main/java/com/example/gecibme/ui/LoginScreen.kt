@@ -132,7 +132,7 @@ fun LoginScreen(
                         username = it
                         errorMessage = null
                     },
-                    label = { Text("Felhasználónév (Neptun-kód)") },
+                    label = { Text("Címtáras felhasználó") },
                     singleLine = true,
                     shape = RoundedCornerShape(14.dp),
                     modifier = Modifier.fillMaxWidth()
