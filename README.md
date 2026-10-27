@@ -49,7 +49,7 @@ Az **ÉnOttVoltam** egy natív Android alkalmazás, amely automatizálja a BME (
 
 1. **Indítás & Bejelentkezés**:
    - Nyisd meg az alkalmazást.
-   - Add meg a **Címtáras felhasználónevedet** (Neptun-kód) és a **Jelszavadat**.
+   - Add meg a **Címtáras felhasználószámodat**és a **Jelszavadat**.
    - Szükség esetén módosítsd a Szerver Host címét (alapértelmezett: `https://csalas.onrender.com`).
    - Kattints a **Bejelentkezés & Csatlakozás** gombra.
 
