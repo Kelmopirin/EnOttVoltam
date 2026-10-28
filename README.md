@@ -5,7 +5,16 @@ Az **ÉnOttVoltam** egy natív Android alkalmazás, amely automatizálja a BME (
 ![Android](https://img.shields.io/badge/Android-Jetpack%20Compose-green?logo=android)
 ![Kotlin](https://img.shields.io/badge/Kotlin-2.2-blue?logo=kotlin)
 ![CameraX](https://img.shields.io/badge/CameraX-ML%20Kit-orange)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Release](https://img.shields.io/github/v/release/Kelmopirin/EnOttVoltam?label=Release)
+
+---
+
+## 📥 Letöltés
+
+A legfrissebb telepíthető alkalmazás (**EnOttVoltam.apk**) elérhető a GitHub Releases oldalon:
+
+👉 **[Legújabb Kiadás Letöltése (Releases)](https://github.com/Kelmopirin/EnOttVoltam/releases/latest)**  
+📦 **[Közvetlen APK Letöltés (v1.0.0)](https://github.com/Kelmopirin/EnOttVoltam/releases/download/v1.0.0/EnOttVoltam.apk)**
 
 ---
 
@@ -49,7 +58,7 @@ Az **ÉnOttVoltam** egy natív Android alkalmazás, amely automatizálja a BME (
 
 1. **Indítás & Bejelentkezés**:
    - Nyisd meg az alkalmazást.
-   - Add meg a **Címtáras felhasználószámodat**és a **Jelszavadat**.
+   - Add meg a **Címtáras felhasználónevedet** és a **Jelszavadat**.
    - Szükség esetén módosítsd a Szerver Host címét (alapértelmezett: `https://csalas.onrender.com`).
    - Kattints a **Bejelentkezés & Csatlakozás** gombra.
 
@@ -59,13 +68,10 @@ Az **ÉnOttVoltam** egy natív Android alkalmazás, amely automatizálja a BME (
 
 ---
 
-## 🚀 Telepítés & Build
+## 🚀 Forráskód Buildelése
 
-### Aláírt APK Letöltése
-A legfrissebb aláírt kimeneti fájl közvetlenül letölthető a projekt gyökeréből:
-- [`EnOttVoltam.apk`](file:///C:/Users/zloto/AndroidStudioProjects/GeciBME/EnOttVoltam.apk)
+Ha saját magad szeretnéd lefordítani a projektet:
 
-### Build parancsok
 ```bash
 # Debug APK fordítása
 ./gradlew app:assembleDebug
